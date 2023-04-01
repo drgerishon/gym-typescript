@@ -1,6 +1,6 @@
 import HText from "@/shared/HText";
 import { BenefitType, SelectedPage } from "@/shared/types";
-import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
+import image2 from "@/assets/custom/image2.png";
 import {
   HomeModernIcon,
   UserGroupIcon,
@@ -89,7 +89,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
           <img
             className="mx-auto"
             alt="benefit-page-graphic"
-            src={BenefitsPageGraphic}
+            src={image2}
           />
           {/* description */}
           <div>

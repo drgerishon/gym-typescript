@@ -1,5 +1,8 @@
 import { SelectedPage, ClassType } from "@/shared/types";
 import image1 from "@/assets/image1.png";
+import image11 from "@/assets/custom/image11.png";
+import shaila1 from "@/assets/custom/shaila1.png";
+import sheila from "@/assets/custom/sheila.png";
 import image2 from "@/assets/image2.png";
 import image3 from "@/assets/image3.png";
 import image4 from "@/assets/image4.png";
@@ -14,17 +17,17 @@ const classes: Array<ClassType> = [
     name: "Weight Training Classes",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    image: image1,
+    image: image11,
   },
   {
     name: "Yoga Classes",
-    image: image2,
+    image: shaila1,
   },
   {
     name: "Ab Core Classes",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    image: image3,
+    image: sheila,
   },
   {
     name: "Adventure Classes",
